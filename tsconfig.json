@@ -1,0 +1,57 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"],
+  "compilerOptions": {
+    /* Base Options */
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "ES2020",
+    "verbatimModuleSyntax": true,
+    "allowJs": true,
+    "resolveJsonModule": false,
+    "moduleDetection": "auto",
+
+    /* Strictness */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+
+    /* Module Resolution */
+    "moduleResolution": "Bundler",
+    "module": "ES2020",
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+
+    /* Libraries */
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+
+    /* Types */
+    "types": [],
+
+    /* JSX */
+    "jsx": "react-jsx",
+
+    /* Build */
+    "outDir": "./dist",
+    "rootDir": "./src",
+    
+    /* Miscellaneous */
+    "forceConsistentCasingInFileNames": true,
+    
+    /* Paths */
+    "baseUrl": "./src",
+    "paths": {
+      "#apis": ["./apis/index.ts"],
+      "#apis/*": ["./apis/*", "./apis/*/index.ts"],
+      "#components": ["./components/index.ts"],
+      "#components/*": ["./components/*", "./components/*/index.ts"],
+      "#hooks": ["./hooks/index.ts"],
+      "#hooks/*": ["./hooks/*", "./hooks/*/index.ts"],
+      "#types": ["./types/index.ts"],
+      "#types/*": ["./types/*", "./types/*/index.ts"],
+      "#utils": ["./utils/index.ts"],
+      "#utils/*": ["./utils/*", "./utils/*/index.ts"],
+      "#assets/*": ["./assets/*"]
+    }
+  }
+}
+
