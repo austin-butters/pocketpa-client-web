@@ -59,6 +59,8 @@
       "#models/*": ["./models/*", "./models/*/index.ts"],
       "#fetch": ["./fetch/index.ts"],
       "#fetch/*": ["./fetch/*", "./fetch/*/index.ts"],
+      "#query-client": ["./query-client/index.ts"],
+      "#query-client/*": ["./query-client/*", "./query-client/*/index.ts"],
     }
   }
 }

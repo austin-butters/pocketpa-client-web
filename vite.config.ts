@@ -46,6 +46,10 @@ export default defineConfig(({ mode }) => {
         '#utils': path.resolve(__dirname, './src/utils'),
         '#assets': path.resolve(__dirname, './src/assets'),
         '#config': path.resolve(__dirname, './src/config'),
+        '#lib': path.resolve(__dirname, './src/lib'),
+        '#models': path.resolve(__dirname, './src/models'),
+        '#fetch': path.resolve(__dirname, './src/fetch'),
+        '#query-client': path.resolve(__dirname, './src/query-client'),
       },
     },
   }
