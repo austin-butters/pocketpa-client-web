@@ -1,10 +1,9 @@
 import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
+import { ReactApp } from './react-app'
 
 const root = document.getElementById('root')
 if (root === null) {
   throw new Error('Root element not found')
 }
 
-createRoot(root).render(<App />)
+createRoot(root).render(<ReactApp />)

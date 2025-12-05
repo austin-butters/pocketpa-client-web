@@ -2,7 +2,7 @@ import { LoadingPlaceholder } from '#components/loading-placeholder'
 import { queryClient, QueryClientProvider } from '#lib/query-client'
 import { StrictMode, Suspense } from 'react'
 
-const App = () => {
+export const ReactApp = () => {
   return (
     <StrictMode>
       <QueryClientProvider client={queryClient}>
@@ -13,5 +13,3 @@ const App = () => {
     </StrictMode>
   )
 }
-
-export default App
