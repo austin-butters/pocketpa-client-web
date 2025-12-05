@@ -50,7 +50,15 @@
       "#types/*": ["./types/*", "./types/*/index.ts"],
       "#utils": ["./utils/index.ts"],
       "#utils/*": ["./utils/*", "./utils/*/index.ts"],
-      "#assets/*": ["./assets/*"]
+      "#assets/*": ["./assets/*"],
+      "#config": ["./config/index.ts"],
+      "#config/*": ["./config/*", "./config/*/index.ts"],
+      "#lib": ["./lib/index.ts"],
+      "#lib/*": ["./lib/*", "./lib/*/index.ts"],
+      "#models": ["./models/index.ts"],
+      "#models/*": ["./models/*", "./models/*/index.ts"],
+      "#fetch": ["./fetch/index.ts"],
+      "#fetch/*": ["./fetch/*", "./fetch/*/index.ts"],
     }
   }
 }
