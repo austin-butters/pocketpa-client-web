@@ -36,3 +36,7 @@ lerna-debug.log*
 # Vite
 .vite/
 
+# Lib, whatever that is
+lib/
+
+

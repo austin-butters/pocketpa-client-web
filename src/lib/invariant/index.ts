@@ -1,11 +1,11 @@
-import { ENVIROMENT } from '#config'
+import { ENVIRONMENT } from '#config'
 
 export const invariant: (
   condition: boolean,
   message: string
 ) => asserts condition is true = (condition, message) => {
   if (!condition) {
-    if (ENVIROMENT === 'production') {
+    if (ENVIRONMENT === 'production') {
       throw new Error()
     }
     console.error(`Invariant Violation: ${message}`)
